@@ -59,14 +59,14 @@ public class WinMain {
     public void CreatWin() {
         setUI();
         win = new JFrame("APK Messenger v3.0 （优化版）");
-        win.setSize(586, 277);
+        win.setSize(586, 257);
         win.setLocationRelativeTo(null);
         win.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         win.setResizable(false);
         win.setLayout(null);
         win.getContentPane().setBackground(WRITE);
         //创建菜单
-        MenuBar menuBar = new MenuBar();
+        /*MenuBar menuBar = new MenuBar();
         Menu menu_1 = new Menu("软件");
         Menu menu_2 = new Menu("文件");
         Menu menu_3 = new Menu("工具");
@@ -112,7 +112,7 @@ public class WinMain {
         menuBar.add(menu_3);
         menu_3.add(menu_3_1);
         menuBar.add(menu_4);
-        win.setMenuBar(menuBar);
+        win.setMenuBar(menuBar);*/
         //图标图片框
         JLabel IcoBox = new JLabel();
 
@@ -122,13 +122,13 @@ public class WinMain {
         IcoBox.setHorizontalAlignment(JLabel.CENTER);//图片居中
         IcoBox.setIcon(andico);
         win.add(IcoBox);
-        label1 = DrowLable("文件路径：", 168, 16, 56, 24);
-        label2 = DrowLable("应用名：", 168, 48, 56, 24);
-        label3 = DrowLable("包名：", 168, 75, 56, 24);
-        label4 = DrowLable("版本名：", 168, 104, 56, 24);
-        label5 = DrowLable("文件MD5：", 168, 136, 56, 24);
-        label6 = DrowLable("加固类型：", 168, 168, 56, 24);
-        label7 = DrowLable("版本号：", 377, 104, 45, 24);
+        label1 = DrowLable("APK：", 175, 16, 56, 24);
+        label2 = DrowLable("应用名：", 175, 46, 56, 24);
+        label3 = DrowLable("包名：", 175, 75, 56, 24);
+        label4 = DrowLable("版本名：", 175, 104, 56, 24);
+        label7 = DrowLable("版本号：", 377, 104, 56, 24);
+        label5 = DrowLable("MD5：", 175, 136, 56, 24);
+        label6 = DrowLable("加固：", 175, 168, 56, 24);
         label8 = DrowLable("展开 ↓", 520, 200, 64, 24);
         label8.setCursor(new Cursor(Cursor.HAND_CURSOR));
         label8.addMouseListener(new MouseListener() {
@@ -144,7 +144,7 @@ public class WinMain {
             public void mouseReleased(MouseEvent e) {
                 if (win.getHeight() == 535) {
                     label8.setText("展开 ↓");
-                    win.setSize(586, 277);
+                    win.setSize(586, 257);
                 } else {
                     label8.setText("收起 ↑");
                     win.setSize(586, 535);
@@ -161,21 +161,21 @@ public class WinMain {
         });
         //语言选择下拉列表
         jComboBox_lang = new JComboBox();
-        jComboBox_lang.setBounds(232, 49, 72, 20);
+        jComboBox_lang.setBounds(232, 46, 80, 24);
         jComboBox_lang.addItem("默认");
         //编辑框绘制
         Edit_FilePath = DrowEdit("", 232, 16, 256, 24);
-        Edit_AppName = DrowEdit("", 312, 48, 176, 24);
+        Edit_AppName = DrowEdit("", 312, 46, 176, 24);
         Edit_PackageName = DrowEdit("", 232, 75, 256, 24);
-        Edit_VersionName = DrowEdit("", 232, 104, 64, 24);
-        Edit_Version = DrowEdit("", 424, 104, 64, 24);
+        Edit_VersionName = DrowEdit("", 232, 104, 55, 24);
+        Edit_Version = DrowEdit("", 433, 104, 55, 24);
         Edit_MD5 = DrowEdit("", 232, 136, 256, 24);
         Edit_PEInfo = DrowEdit("", 232, 168, 256, 24);
         //绘制按钮
         Btn_ll = DrowBtn("浏览", 497, 16, 72, 24);
         Btn_AppName = DrowBtn("复制", 497, 46, 72, 24);
         Btn_PackageName = DrowBtn("复制", 497, 74, 72, 24);
-        Btn_VersionName = DrowBtn("复制", 301, 104, 72, 24);
+        Btn_VersionName = DrowBtn("复制", 294, 104, 72, 24);
         Btn_Version = DrowBtn("复制", 497, 104, 72, 24);
         Btn_MD5 = DrowBtn("复制", 497, 136, 72, 24);
         Btn_PEInfo = DrowBtn("复制", 497, 168, 72, 24);
@@ -389,13 +389,13 @@ public class WinMain {
         try {
             UIManager.setLookAndFeel(windows);
         } catch (UnsupportedLookAndFeelException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         } catch (IllegalAccessException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         } catch (InstantiationException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
     }
 

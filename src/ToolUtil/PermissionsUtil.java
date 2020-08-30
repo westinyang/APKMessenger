@@ -26,7 +26,7 @@ public class PermissionsUtil {
 
     public PermissionsUtil() {
         try {
-            String permissionsInfoPath = PathUtil.getJarPath() + "\\res\\Permissionsinfo.dat";
+            String permissionsInfoPath = PathUtil.getJarPath() + "/res/Permissionsinfo.dat";
             File f = new File(permissionsInfoPath);
             if (f.isFile() && f.exists()) {
                 InputStreamReader read = new InputStreamReader(new FileInputStream(f), "utf-8");

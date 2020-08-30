@@ -38,7 +38,7 @@ public class ApkUtil {
     public ApkUtil() {
         builder = new ProcessBuilder();
         builder.redirectErrorStream(true);
-        aaptToolPath = PathUtil.getJarPath() + "\\aapt\\" + getAaptToolName();
+        aaptToolPath = PathUtil.getJarPath() + "/aapt/" + getAaptToolName();
     }
 
     public String getAaptToolPath() {

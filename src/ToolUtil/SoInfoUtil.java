@@ -12,7 +12,7 @@ public class SoInfoUtil {
     public  SoInfoUtil() {
         //拆分本地文件
         try {
-            String soInfoPath = PathUtil.getJarPath() + "\\res\\soinfo.dat";
+            String soInfoPath = PathUtil.getJarPath() + "/res/soinfo.dat";
             File f = new File(soInfoPath);
             if (f.isFile() && f.exists()) {
                 InputStreamReader read = new InputStreamReader(new FileInputStream(f), "utf-8");
