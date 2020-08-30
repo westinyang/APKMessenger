@@ -142,12 +142,12 @@ public class WinMain {
 
             @Override
             public void mouseReleased(MouseEvent e) {
-                if (win.getHeight() == 535) {
+                if (win.getHeight() == 515) {
                     label8.setText("展开 ↓");
                     win.setSize(586, 257);
                 } else {
                     label8.setText("收起 ↑");
-                    win.setSize(586, 535);
+                    win.setSize(586, 515);
                 }
             }
 
@@ -165,7 +165,7 @@ public class WinMain {
         jComboBox_lang.addItem("默认");
         //编辑框绘制
         Edit_FilePath = DrowEdit("", 232, 16, 256, 24);
-        Edit_AppName = DrowEdit("", 312, 46, 176, 24);
+        Edit_AppName = DrowEdit("", 320, 46, 168, 24);
         Edit_PackageName = DrowEdit("", 232, 75, 256, 24);
         Edit_VersionName = DrowEdit("", 232, 104, 55, 24);
         Edit_Version = DrowEdit("", 433, 104, 55, 24);

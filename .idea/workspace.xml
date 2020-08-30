@@ -25,23 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4de9f88-69e0-4aea-87f8-095b5cb78072" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/apkmsg/aapt/aapt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/apkmsg_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/apkmsg_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/apkmsg_jar/aapt/aapt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/apkmsg/aapt/aapt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/apkmsg_jar/aapt/aapt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/apkmsg/aapt/aapt.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/apkmsg_jar/apkmsg.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/apkmsg_jar/res/Permissionsinfo.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/apkmsg/res/Permissionsinfo.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/apkmsg_jar/res/soinfo.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/apkmsg/res/soinfo.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/apkmsg/GUI/WinMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/apkmsg/GUI/WinMain$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/apkmsg/GUI/WinMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/apkmsg/GUI/WinMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/apkmsg/ToolUtil/PermissionsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/apkmsg/ToolUtil/PermissionsUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/apkmsg/ToolUtil/SoInfoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/apkmsg/ToolUtil/SoInfoUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/apkmsg/apkinfo/ApkUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/apkmsg/apkinfo/ApkUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/WinMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/WinMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToolUtil/PermissionsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToolUtil/PermissionsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToolUtil/SoInfoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToolUtil/SoInfoUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apkinfo/ApkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apkinfo/ApkUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,28 +229,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598715794194" />
-    <state width="1878" height="264" key="GridCell.Tab.0.bottom" timestamp="1598775524668">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1598776104227">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598772603557" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104227" />
     <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1598775524668" />
     <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1598773695238" />
-    <state width="1878" height="264" key="GridCell.Tab.0.center" timestamp="1598775524667">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1598776104226">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598772603557" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104226" />
     <state width="1878" height="264" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1598775524667" />
     <state width="1878" height="264" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1598773695237" />
-    <state width="1878" height="264" key="GridCell.Tab.0.left" timestamp="1598775524666">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1598776104226">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598772603556" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104226" />
     <state width="1878" height="264" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1598775524666" />
     <state width="1878" height="264" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1598773695236" />
-    <state width="1878" height="264" key="GridCell.Tab.0.right" timestamp="1598775524668">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1598776104226">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598772603557" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104226" />
     <state width="1878" height="264" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1598775524668" />
     <state width="1878" height="264" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1598773695237" />
     <state width="1878" height="326" key="GridCell.Tab.1.bottom" timestamp="1598774854833">
