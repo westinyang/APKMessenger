@@ -1,5 +1,5 @@
 # APKMessenger
-## 软件介绍
+#### 软件介绍
 APK Messenger 是一款电脑端APK信息文件提取工具，由果核剥壳网站开发，本软件为基于JAVA GUI开发的桌面程序  
 目前JAVA版本实现了功能  
 获取应用名，支持提取多语言名称  
@@ -8,9 +8,20 @@ APK Messenger 是一款电脑端APK信息文件提取工具，由果核剥壳网
 读取APK图标
 支持提取APK对应的权限，并且给出权限注释  
 
-## 相关说明  
+#### 相关说明  
 本软件为APKMessenger的复刻版本，原软件为易语言开发迭代到了4.2版本，下载地址：https://www.ghpym.com/apkinfo.html
 本JAVA源代码实现了发行版本的大部分功能，如果要用于生产环境，建议您下载上面地址上面的版本。  
-开发工具：IDEA  
-### 软件部分按钮不能使用，要读取apk信息，直接把文件拖到软件即可
-![img](https://github.com/ghboke/APKMessenger/blob/master/apkmessenger.png)
+开发工具：IDEA
+
+#### 修改说明
+1. 优化UI布局、移除菜单栏
+2. 修复aapt、res文件读取路径问题
+3. 打包为可执行jar
+4. 优化在macOS上运行的部分问题
+  
+#### 截图
+###### win
+![win](./apkmsg-win.png)
+
+###### mac
+![mac](./apkmsg-mac.png)

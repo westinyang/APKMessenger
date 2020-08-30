@@ -24,7 +24,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4de9f88-69e0-4aea-87f8-095b5cb78072" name="Default" comment="" />
+    <list default="true" id="c4de9f88-69e0-4aea-87f8-095b5cb78072" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apkmsg-mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apkmsg-win.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,25 +58,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/apkmsg_jar/aapt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/out/artifacts/apkmsg" />
-      <recent name="$PROJECT_DIR$/out/production/apkmsg/aapt" />
-      <recent name="F:\code\java\apkmsgB\src\aapt" />
-      <recent name="F:\code\java\apkmsgB\src\GUI" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\.work\git\APKMessenger" />
       <recent name="$PROJECT_DIR$/out/artifacts/apkmsg_jar/aapt" />
       <recent name="$PROJECT_DIR$/src/aapt" />
       <recent name="$PROJECT_DIR$/out/production/apkmsg/aapt" />
       <recent name="E:\.work\git\APKMessenger\out\artifacts\apkmsg_jar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\.work\git\APKMessenger" />
+      <recent name="$PROJECT_DIR$/out/artifacts/apkmsg" />
+      <recent name="$PROJECT_DIR$/out/production/apkmsg/aapt" />
+      <recent name="F:\code\java\apkmsgB\src\aapt" />
       <recent name="F:\code\java\apkmsgB\src\GUI" />
     </key>
   </component>
@@ -212,10 +218,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="342" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1598715819993" />
-    <state x="448" y="93" key="#Project_Structure" timestamp="1598776631542">
-      <screen x="0" y="23" width="1920" height="980" />
-    </state>
-    <state x="448" y="93" key="#Project_Structure/0.23.1920.980@0.23.1920.980" timestamp="1598776631542" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598770539328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,38 +226,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598768128900" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598777326059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598777326059" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1598715794194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598715794194" />
-    <state width="1878" height="215" key="GridCell.Tab.0.bottom" timestamp="1598776625471">
-      <screen x="0" y="23" width="1920" height="980" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1598776893964">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104227" />
-    <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1598776422785" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598776893964" />
     <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1598775524668" />
-    <state width="1878" height="215" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1598776625471" />
-    <state width="1878" height="215" key="GridCell.Tab.0.center" timestamp="1598776625470">
-      <screen x="0" y="23" width="1920" height="980" />
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1598773695238" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1598776893964">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104226" />
-    <state width="1878" height="264" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1598776422785" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598776893964" />
     <state width="1878" height="264" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1598775524667" />
-    <state width="1878" height="215" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1598776625470" />
-    <state width="1878" height="215" key="GridCell.Tab.0.left" timestamp="1598776625469">
-      <screen x="0" y="23" width="1920" height="980" />
+    <state width="1878" height="264" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1598773695237" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1598776893963">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104226" />
-    <state width="1878" height="264" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1598776422784" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598776893963" />
     <state width="1878" height="264" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1598775524666" />
-    <state width="1878" height="215" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1598776625469" />
-    <state width="1878" height="215" key="GridCell.Tab.0.right" timestamp="1598776625470">
-      <screen x="0" y="23" width="1920" height="980" />
+    <state width="1878" height="264" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1598773695236" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1598776893964">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598776104226" />
-    <state width="1878" height="264" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1598776422785" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598776893964" />
     <state width="1878" height="264" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1598775524668" />
-    <state width="1878" height="215" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1598776625470" />
+    <state width="1878" height="264" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1598773695237" />
     <state width="1878" height="326" key="GridCell.Tab.1.bottom" timestamp="1598774854833">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
@@ -276,10 +278,10 @@
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598772603557" />
     <state width="1878" height="326" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1598774854832" />
-    <state x="440" y="111" key="SettingsEditor" timestamp="1598773970191">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="366" y="145" key="SettingsEditor" timestamp="1598777267623">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598770541951" />
+    <state x="366" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598777267623" />
     <state x="440" y="111" key="SettingsEditor/0.23.1920.978@0.23.1920.978" timestamp="1598773970191" />
     <state x="494" y="256" width="932" height="653" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598770982402">
       <screen x="0" y="0" width="1920" height="1040" />
