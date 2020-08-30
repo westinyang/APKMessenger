@@ -1,5 +1,8 @@
 package apkinfo;
 
+import ToolUtil.PathUtil;
+
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -29,12 +32,13 @@ public class ApkUtil {
     private static final String SPLIT_REGEX = "(: )|(=')|(' )|'";
 
     private ProcessBuilder builder;
-    // aapt 所在目录
-    private String aaptToolPath = "src/aapt/";
+    // aapt 路径
+    private String aaptToolPath;
 
     public ApkUtil() {
         builder = new ProcessBuilder();
         builder.redirectErrorStream(true);
+        aaptToolPath = PathUtil.getJarPath() + "\\aapt\\" + getAaptToolName();
     }
 
     public String getAaptToolPath() {
@@ -46,12 +50,11 @@ public class ApkUtil {
     }
 
     public ApkInfo parseApk(String apkPath) {
-        String aaptTool = aaptToolPath + getAaptToolName();
         Process process = null;
         InputStream inputStream = null;
         BufferedReader bufferedReader = null;
         try {
-            process = builder.command(aaptTool, "d", "badging", apkPath).start();
+            process = builder.command(aaptToolPath, "d", "badging", apkPath).start();
             inputStream = process.getInputStream();
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "utf-8"));
             ApkInfo apkInfo = new ApkInfo();

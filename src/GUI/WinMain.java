@@ -58,7 +58,7 @@ public class WinMain {
 
     public void CreatWin() {
         setUI();
-        win = new JFrame("APK Messenger v3.0");
+        win = new JFrame("APK Messenger v3.0 （优化版）");
         win.setSize(586, 277);
         win.setLocationRelativeTo(null);
         win.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
@@ -129,7 +129,7 @@ public class WinMain {
         label5 = DrowLable("文件MD5：", 168, 136, 56, 24);
         label6 = DrowLable("加固类型：", 168, 168, 56, 24);
         label7 = DrowLable("版本号：", 377, 104, 45, 24);
-        label8 = DrowLable("展开》》》", 500, 200, 64, 24);
+        label8 = DrowLable("展开 ↓", 520, 200, 64, 24);
         label8.setCursor(new Cursor(Cursor.HAND_CURSOR));
         label8.addMouseListener(new MouseListener() {
             @Override
@@ -143,10 +143,10 @@ public class WinMain {
             @Override
             public void mouseReleased(MouseEvent e) {
                 if (win.getHeight() == 535) {
-                    label8.setText("展开》》》");
+                    label8.setText("展开 ↓");
                     win.setSize(586, 277);
                 } else {
-                    label8.setText("收起《《《");
+                    label8.setText("收起 ↑");
                     win.setSize(586, 535);
                 }
             }
@@ -190,7 +190,7 @@ public class WinMain {
             }
         });
         JCheckBox top = new JCheckBox("窗口顶置");
-        top.setBounds(8, 200, 96, 24);
+        top.setBounds(5, 200, 96, 24);
         top.setBackground(WRITE);
         top.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -211,9 +211,9 @@ public class WinMain {
         jPanel_Otherinfo.setBackground(WRITE);
         jTabbedPane = new JTabbedPane();
         jTabbedPane.setBackground(WRITE);
-        jPanel_Main.setBounds(8, 232, 560, 248);
+        jPanel_Main.setBounds(5, 232, 570, 240);
         jPanel_Main.setBackground(WRITE);
-        jTabbedPane.setBounds(8, 0, 550, 240);
+        jTabbedPane.setBounds(5, 0, 560, 240);
         jPanel_Main.setLayout(null);
         jPanel_Main.add(jTabbedPane);
         jTabbedPane.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);

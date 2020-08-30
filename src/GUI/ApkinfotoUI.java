@@ -99,7 +99,7 @@ public class ApkinfotoUI {
             public void run() {
                 try {
                     Edit_PEInfo.setText("读取加固信息中");
-                    List SoList = ZipUtil.readZipFile(FilePath, "lib/");
+                    List SoList = ZipUtil.readZipFile(FilePath, "lib/", "assets/");
                     SoInfoUtil soInfoUtil = new SoInfoUtil();
                     String soname = "";
                     for (Object s : SoList) {

@@ -12,7 +12,8 @@ public class SoInfoUtil {
     public  SoInfoUtil() {
         //拆分本地文件
         try {
-            File f = new File("src/res/soinfo.dat");
+            String soInfoPath = PathUtil.getJarPath() + "\\res\\soinfo.dat";
+            File f = new File(soInfoPath);
             if (f.isFile() && f.exists()) {
                 InputStreamReader read = new InputStreamReader(new FileInputStream(f), "utf-8");
                 BufferedReader reader = new BufferedReader(read);
@@ -31,8 +32,6 @@ public class SoInfoUtil {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
     public String IsThisSo(String soname){
         for (Object o :Infolist){
